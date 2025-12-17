@@ -29,6 +29,9 @@ usernamecache.json
 .mixin.out/
 whitelist.json.backup
 ops.json.backup
+ops.json
+whitelist.json
+server.properties
 
 # --- Welt-Daten (Optional) ---
 # Welten sind oft zu groß für Git. 

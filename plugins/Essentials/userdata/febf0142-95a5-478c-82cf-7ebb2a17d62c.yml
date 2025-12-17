@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766013324342
+  login: 1766013268773
+money: '0'
+last-account-name: DerHawky_TV
+logoutlocation:
+  world: fc0d580a-2ccd-4ef1-9631-59c4a4186517
+  world-name: world
+  x: 1044.4901568520756
+  y: 87.9375
+  z: -734.5779399856859
+  yaw: 85.2833251953125
+  pitch: 21.00031852722168
