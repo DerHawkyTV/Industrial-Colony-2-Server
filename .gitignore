@@ -23,7 +23,7 @@ logs/
 crash-reports/
 debug/
 
-# --- Temporäre Server-Dateien ---
+# ---  Server-Dateien ---
 usercache.json
 usernamecache.json
 .mixin.out/
