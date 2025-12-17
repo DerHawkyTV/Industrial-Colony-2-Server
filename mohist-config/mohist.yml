@@ -1,0 +1,149 @@
+# This is the main configuration file for Mohist.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Mohist wiki at
+# https://wiki.mohistmc.com/
+#
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the Discord or drop by our forums and leave a post.
+#
+# Discord: https://discord.gg/mohistmc
+# Forums: https://mohistmc.com/
+# Forums (CN): https://mohistmc.cn/
+
+anvilfix:
+  maximumrepaircost: 40
+  enchantment_fix: false
+  max_enchantment_level: 32767
+player_modlist_blacklist:
+  enable: false
+  list: []
+server_modlist_whitelist:
+  enable: false
+  list: '[almanac, supermartijn642configlib, createdeco, botarium, tinkerslevellingaddon,
+    fabric_rendering_fluids_v1, apocalypticarsenal, fabric_models_v0, fabric_convention_tags_v1,
+    modernfix, fabric_command_api_v1, fabric_block_view_api_v2, fabric_command_api_v2,
+    kambrik, balm, fabric_screen_api_v1, jeresources, cloth_config, sound_physics_remastered,
+    elitex, refinedstorage, athena, corpse, torchmaster, fabric_game_rule_api_v1,
+    lrarmor, supermartijn642corelib, create_recipes, curios, rightclickharvest, searchables,
+    framedblocks, bettervillage, fabric_entity_events_v1, worldedit, constructionwand,
+    fabric_rendering_data_attachment_v1, jadeaddons, sliceanddice, byzantine, fabric_client_tags_api_v1,
+    smartbrainlib, fabric_dimensions_v1, create_tweaked_controllers, mekanismcovers,
+    rechiseled, fabric_model_loading_api_v1, jei, attributefix, fabric_screen_handler_api_v1,
+    libraryferret, fabric_rendering_v1, fabric_renderer_indigo, fallingleaves, rep,
+    naturescompass, enchanted_arsenal, fabridge, rechiseledcreate, neruina, starlight,
+    molten_vents, fusion, crafttweaker, mekanism, fabric_particles_v1, puzzlesaccessapi,
+    forge, s_a_b, tectonic, minecraft, terrablender, biomesoplenty, fabric_api_base,
+    cleanswing, spectrelib, fabric_block_api_v1, createendertransmission, fabric_resource_conditions_api_v1,
+    guccivuitton, createtweaker, domum_ornamentum, betterfpsdist, kotlinforforge,
+    flywheel, mantle, fabric_item_group_api_v1, tacz_npc, justenoughprofessions, securitycraft,
+    create_the_air_wars, structurize, fabric_registry_sync_v0, appleskin, fabric_recipe_api_v1,
+    fabric_object_builder_api_v1, cbc_at, puzzleslib, gjeb, fabric_sound_api_v1, valkyrienskies,
+    vs_tournament, fabric_message_api_v1, rsrequestify, create_eureka, kuma_api, fabric_renderer_api_v1,
+    geckolib, recipeessentials, fabric_item_api_v1, taczaddon, towntalk, sophisticatedcore,
+    gpumemleakfix, vs_eureka, ritchiesprojectilelib, citadel, fabric_data_attachment_api_v1,
+    mixinextras, bookshelf, sophisticatedbackpacks, create_dragon_lib, superbwarfare,
+    railways, mekanismgenerators, warborn, carryon, melody, fzzy_config, fabric_api,
+    fabric_content_registries_v0, mob_grinding_utils, konkrete, cbcmodernwarfare,
+    create_connected, chipped, farmersdelight, ambientsounds, fabric_api_lookup_api_v1,
+    mekanismadditions, valkyrien_warium, blockui, collective, connectormod, resourcefullib,
+    mekanismtools, architectury, doapi, terraform, vlib, ftblibrary, ftbteams, fabric_loot_api_v2,
+    cupboard, trashcans, fabric_networking_api_v1, framework, vs_sails, letmedespawn,
+    fabric_lifecycle_events_v1, effortlessbuilding, fabric_key_binding_api_v1, fabric_transfer_api_v1,
+    inventorysorter, rhino, kubejs, taczjs, kubejs_mekanism, copycats, tacz, lrtactical,
+    fabric_resource_loader_v0, waystones, clumps, comforts, fabric_mining_level_api_v1,
+    create_confectionery, escalated, mcjtylib, rftoolsbase, rftoolsdim, rftoolspower,
+    rftoolsbuilder, rftoolsstorage, rftoolscontrol, distanthorizons, terralith, vvp,
+    ftbchunks, tfmg, fabric_transitive_access_wideners_v1, craftingtweaks, tconstruct,
+    rftoolsutility, moonlight, molten_metals, mysterious_mountain_lib, fabric_blockrenderlayer_v1,
+    jade, ae2, ae2wtlib, createappliedkinetics, creativecore, create_sa, storagedrawers,
+    immersive_paintings, jei_mekanism_multiblocks, create_radar, createbigcannons,
+    create, create_central_kitchen, vs_clockwork, trackwork, drivebywire, create_interactive,
+    fabric_biome_api_v1, minecolonies, ferritecore, refinedstorageaddons, crusty_chunks,
+    create_enchantment_industry, fabric_data_generation_api_v1, fabric_events_interaction_v0,
+    createaddition, tacz_c]'
+max-bees-in-hive: 3
+enchantment-table-book-animation-tick: false
+networkmanager:
+  debug: false
+  intercept: []
+threadpriority:
+  server_thread: 8
+entity:
+  clear:
+    item:
+      enable: false
+      whitelist: []
+      msg: '[Server] Cleaned up %size% drop item'
+      time: 1800
+    monster:
+      enable: false
+      whitelist: []
+      msg: '[Server] Cleaned up %size% monster'
+      time: 1800
+ban:
+  item:
+    enable: false
+    list: []
+  entity:
+    enable: false
+    list: []
+  enchantment:
+    enable: false
+    list: []
+motd:
+  enable: false
+  firstline: <RAINBOW1>A Minecraft Server</RAINBOW>
+  secondline: ''
+settings:
+  messages:
+    ping-command-output: §2%s's ping is %sms
+events:
+  fire_tick: false
+  explosion: false
+forge:
+  bukkitpermissionshandler: true
+worldmanage: true
+velocity:
+  enabled: false
+  onlineMode: false
+  secret: ''
+recipe:
+  warn: false
+tpa:
+  enable: false
+  permissions: true
+back:
+  enable: false
+  permissions: true
+permissions:
+  debug:
+    console: false
+    player: false
+world:
+  async_save: false
+message:
+  require_forge: This server has mods that require Forge to be installed on the client.
+    Contact your server admin for more details.
+server_mod_name: mohist
+mohist:
+  show_logo: true
+  check_update: true
+  watchdog_spigot: true
+  watchdog_mohist: false
+  lang: de_DE
+  libraries:
+    check: true
+  installation-finished: false
+config-version: 1
+keepinventory:
+  global:
+    enable: false
+    inventory: true
+    exp: true
+  permission:
+    inventory: mohist.keepinventory.inventory
+    exp: mohist.keepinventory.exp
+  world:
+    inventory: false
+    exp: false

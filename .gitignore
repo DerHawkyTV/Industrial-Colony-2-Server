@@ -1,0 +1,56 @@
+# --- System & IDE Dateien ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# --- Mohist & Server Binaries ---
+# Ignoriert die spezifische Mohist Jar und andere Server-Jars
+mohist-*.jar
+server.jar
+bundler-*.jar
+
+# --- WICHTIG: Bibliotheken und Assets ---
+# Mohist lädt diese beim Start herunter; sie gehören nicht ins Repo
+libraries/
+versions/
+assets/
+cache/
+
+# --- Logs und Crash Reports ---
+logs/
+crash-reports/
+debug/
+
+# --- Temporäre Server-Dateien ---
+usercache.json
+usernamecache.json
+.mixin.out/
+whitelist.json.backup
+ops.json.backup
+
+# --- Welt-Daten (Optional) ---
+# Welten sind oft zu groß für Git. 
+# Wenn du sie versionieren willst, entferne das # vor den Zeilen.
+world/
+world_nether/
+world_the_end/
+# Backup Ordner (falls von Backup-Plugins erstellt)
+backups/
+
+# --- Mods und Plugins ---
+# Best Practice: Konfigurationen behalten, aber .jar Dateien ignorieren.
+# Wenn du die Mods/Plugins doch im Repo haben willst, entferne diese Zeilen.
+#mods/*.jar
+#plugins/*.jar
+!mods/.gitkeep
+!plugins/.gitkeep
+
+# --- Dynmap / Web-Karten (falls vorhanden) ---
+dynmap/
+web/
+
+# --- Konfigurationen mit sensiblen Daten (Vorsicht!) ---
+# Überlege, ob du server.properties ignorieren willst, falls Passwörter (RCON) enthalten sind.
+# server.properties
