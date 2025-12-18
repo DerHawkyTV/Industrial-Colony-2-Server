@@ -1,4 +1,5 @@
 # Industrial Colony 2 Server Pack
+- Version 1.0.0
 
 Ein umfassendes Minecraft 1.20.1 Forge Modpack für industrielle Automatisierung, epische Luftschiffe, fortschrittliche Waffen und Kolonieaufbau.
 
