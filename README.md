@@ -83,7 +83,7 @@ Ein umfassendes Minecraft 1.20.1 Forge Modpack für industrielle Automatisierung
    start.bat
 
    # Linux/Mac
-   java -Xmx16G -Xms16G -jar mohist-1.20.1-6e3e2a1.jar nogui
+   ./start.sh
    ```
 
 3. **Konfiguration**
