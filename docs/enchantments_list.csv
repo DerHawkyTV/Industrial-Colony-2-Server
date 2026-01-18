@@ -1,0 +1,159 @@
+Mod;Enchantment;Beschreibung;Max Level;Kategorie
+Minecraft Vanilla;Protection;Reduziert Schaden um 4% pro Level;8;Rüstung
+Minecraft Vanilla;Fire Protection;Reduziert Feuerschaden um 8% pro Level;9;Rüstung
+Minecraft Vanilla;Feather Falling;Reduziert Fallschaden um 12% pro Level;11;Stiefel
+Minecraft Vanilla;Blast Protection;Reduziert Explosionsschaden um 8% pro Level;9;Rüstung
+Minecraft Vanilla;Projectile Protection;Reduziert Projektilschaden um 8% pro Level;11;Rüstung
+Minecraft Vanilla;Respiration;Erhöht die Atemzeit unter Wasser;7;Helm
+Minecraft Vanilla;Aqua Affinity;Normales Abbauen unter Wasser;1;Helm
+Minecraft Vanilla;Thorns;Rückschaden an Angreifer;5;Rüstung
+Minecraft Vanilla;Depth Strider;Erhöht Unterwasser-Bewegung;7;Stiefel
+Minecraft Vanilla;Frost Walker;Erzeugt Eis auf Wasser;7;Stiefel
+Minecraft Vanilla;Binding Curse;Item kann nicht abgelegt werden (Fluch);1;Alle
+Minecraft Vanilla;Soul Speed;Schneller auf Soul Sand;7;Stiefel
+Minecraft Vanilla;Swift Sneak;Schneller beim Schleichen;5;Hose
+Minecraft Vanilla;Sharpness;Erhöht Waffenschaden;9;Waffe
+Minecraft Vanilla;Smite;Erhöht Schaden gegen Untote;10;Waffe
+Minecraft Vanilla;Bane of Arthropods;Erhöht Schaden gegen Arthropoden;10;Waffe
+Minecraft Vanilla;Knockback;Erhöht Rückstoß;5;Waffe
+Minecraft Vanilla;Fire Aspect;Entzündet Gegner;5;Waffe
+Minecraft Vanilla;Looting;Erhöht Loot-Drops;8;Waffe
+Minecraft Vanilla;Sweeping Edge;Erhöht Flächenschaden;8;Schwert
+Minecraft Vanilla;Efficiency;Erhöht Abbaugeschwindigkeit;9;Werkzeug
+Minecraft Vanilla;Silk Touch;Blöcke droppen original;1;Werkzeug
+Minecraft Vanilla;Unbreaking;Erhöht Haltbarkeit;8;Alle
+Minecraft Vanilla;Fortune;Erhöht Rohstoff-Drops;8;Werkzeug
+Minecraft Vanilla;Power;Erhöht Pfeil-Schaden;9;Bogen
+Minecraft Vanilla;Punch;Erhöht Pfeil-Knockback;5;Bogen
+Minecraft Vanilla;Flame;Entzündet mit Pfeilen;1;Bogen
+Minecraft Vanilla;Infinity;Unbegrenzte Pfeile;1;Bogen
+Minecraft Vanilla;Luck of the Sea;Bessere Angel-Chancen;8;Angel
+Minecraft Vanilla;Lure;Schnelleres Angeln;8;Angel
+Minecraft Vanilla;Loyalty;Dreizack kehrt zurück;9;Dreizack
+Minecraft Vanilla;Impaling;Mehr Schaden gegen Wassermobs;10;Dreizack
+Minecraft Vanilla;Riptide;Dreizack schleudert Spieler;9;Dreizack
+Minecraft Vanilla;Channeling;Dreizack beschwört Blitze;1;Dreizack
+Minecraft Vanilla;Multishot;Armbrust schießt 3 Pfeile;1;Armbrust
+Minecraft Vanilla;Quick Charge;Schnelleres Laden;5;Armbrust
+Minecraft Vanilla;Piercing;Pfeile durchdringen;8;Armbrust
+Minecraft Vanilla;Mending;Repariert mit XP;1;Alle
+Minecraft Vanilla;Vanishing Curse;Item verschwindet beim Tod (Fluch);1;Alle
+Apotheosis;Berserker's Fury;Mehr Schaden bei niedriger HP;3;Waffe
+Apotheosis;Chainsaw;Bäume komplett fällen;1;Axt
+Apotheosis;Chromatic;Wechselnde Farben (visuell);1;Alle
+Apotheosis;Crescendo;Schaden steigt mit Kombo;5;Waffe
+Apotheosis;Earth's Boon;Pflanzen wachsen schneller;5;Hacke
+Apotheosis;Endless Quiver;Unbegrenzte Pfeile;1;Bogen
+Apotheosis;Exploitation;Mehr Schaden gegen Effekt-Gegner;1;Waffe
+Apotheosis;Growth Serum;Tiere wachsen schneller;1;Waffe
+Apotheosis;Icy Thorns;Frost-Rückschaden;5;Rüstung
+Apotheosis;Infusion;XP zu Haltbarkeit;1;Alle
+Apotheosis;Knowledge;Mehr XP-Drops;3;Helm
+Apotheosis;Life Mending;Heilt mit Haltbarkeitsverlust;3;Rüstung
+Apotheosis;Miner's Fervor;Progressive Abbaugeschwindigkeit;5;Werkzeug
+Apotheosis;Nature's Blessing;Heilt in Natur;7;Rüstung
+Apotheosis;Obliteration;Zerstört Blöcke vollständig;1;Werkzeug
+Apotheosis;Rebounding;Knockback auf Angreifer;5;Schild
+Apotheosis;Reflective;Reflektiert Schaden;7;Schild
+Apotheosis;Scavenger;Mehr Drop-Wahrscheinlichkeit;3;Waffe
+Apotheosis;Shield Bash;Verstärkt Schild-Knockback;7;Schild
+Apotheosis;Spearfishing;Bessere Angel-Items;7;Angel
+Apotheosis;Splitting;Teilt Drops auf;1;Werkzeug
+Apotheosis;Stable Footing;Verhindert Knockback;1;Stiefel
+Apotheosis;Tempting;Zieht Items an;1;Hacke
+Apotheosis;Bane of Illagers;Mehr Schaden gegen Illager;10;Waffe
+Apotheosis;Capturing;Fängt Mobs ein;7;Waffe
+AllTheEnchants;Levitation;Lässt Gegner schweben;7;Waffe
+AllTheEnchants;Curse of Blindness;Verursacht Blindheit (Fluch);1;Waffe
+AllTheEnchants;Nausea;Verursacht Übelkeit;7;Waffe
+AllTheEnchants;The Call of Zeus;Ruft Blitze;1;Waffe
+AllTheEnchants;Spectral;Macht Gegner sichtbar;1;Waffe
+AllTheEnchants;Livesteal;Heilt bei Schaden;7;Waffe
+AllTheEnchants;Flame Aura;Entzündet Umgebung;1;Rüstung
+AllTheEnchants;Sapling Strike;Mehr Setzlinge;1;Axt
+AllTheEnchants;Lunar Blessing;Heilt nachts;1;Rüstung
+AllTheEnchants;Rally;Mehr Angriffsgeschwindigkeit;1;Waffe
+AllTheEnchants;Bloodlust;Mehr Schaden bei Kombos;7;Waffe
+AllTheEnchants;Chain Lightning;Blitze springen;1;Waffe
+AllTheEnchants;Frostbite;Verlangsamt Gegner;1;Waffe
+AllTheEnchants;EXP Warrior;Mehr XP;1;Waffe
+AllTheEnchants;Echo Strike;Doppelte Schläge;7;Waffe
+AllTheEnchants;Emerald Touch;Droppen Smaragde;1;Werkzeug
+AllTheEnchants;Diamond Touch;Droppen Diamanten;1;Werkzeug
+AllTheEnchants;Iron Touch;Droppen Eisen;1;Werkzeug
+AllTheEnchants;Gold Touch;Droppen Gold;1;Werkzeug
+AllTheEnchants;Curse of Starvation;Verursacht Hunger (Fluch);1;Alle
+AllTheEnchants;Spectral Sight;Sieht durch Wände;1;Helm
+AllTheEnchants;Timber Whisper;Mehr Holz;1;Axt
+AllTheEnchants;Spirit of the Forest;Bäume regenerieren;1;Axt
+AllTheEnchants;Shocking Shield;Elektrischer Schildschaden;6;Schild
+AllTheEnchants;Elder's Wisdom;Mehr XP und Loot;9;Waffe
+AllTheEnchants;Stun;Betäubt Gegner;7;Waffe
+AllTheEnchants;Nightcrawler;Unsichtbar nachts;7;Rüstung
+AllTheEnchants;Shadow Veil;Unsichtbar in Schatten;1;Rüstung
+AllTheEnchants;Earthsplitter;Sprengt Gegner zurück;1;Waffe
+AllTheEnchants;Glimmer Step;Teleport bei Sprung;1;Stiefel
+AllTheEnchants;Serpent's Fang;Giftschaden;7;Waffe
+AllTheEnchants;Blessed Touch;Heilt bei Treffern;1;Waffe
+AllTheEnchants;Stone Rush;Schneller auf Stein;7;Stiefel
+AllTheEnchants;Infinity Edge;Keine Abnutzung;1;Schwert
+AllTheEnchants;Shadowskin;Mehr Rüstung in Dunkelheit;1;Rüstung
+AllTheEnchants;Aetherial Flight;Kurzzeitiges Fliegen;1;Stiefel
+AllTheEnchants;Critical Strike;Mehr Crits;1;Waffe
+AllTheEnchants;Lucky Mine;Bessere Abbau-Chancen;1;Werkzeug
+AllTheEnchants;Healthy;Mehr maximale HP;1;Rüstung
+AllTheEnchants;Logical Thinker;Intelligenz-Effekte;7;Helm
+AllTheEnchants;Lumberjack;Bessere Holz-Drops;1;Axt
+AllTheEnchants;Dune Strider;Schneller in Wüste;1;Stiefel
+Enchanted Arsenal;Lightweight;Reduziert Gewicht;6;Rüstung
+Enchanted Arsenal;Poison Tipped;Vergiftet Ziele;1;Waffe
+Enchanted Arsenal;Enflamed;Entzündet Ziele;1;Waffe
+Enchanted Arsenal;Juggernaut;Erhöht Rüstung;6;Rüstung
+Enchanted Arsenal;Illuminating;Hellt Umgebung auf;1;Helm
+Enchanted Arsenal;Shell Shock;Betäubt Gegner;1;Waffe
+Enchanted Arsenal;Armour Piercing;Ignoriert Rüstung;9;Waffe
+Enchanted Arsenal;Hollow Point;Mehr Schaden durch Rüstung;9;Waffe
+Enchanted Arsenal;Curse of Overpressuring;Waffe nutzt schneller ab (Fluch);1;Waffe
+Enchanted Arsenal;Curse of Overrecoiling;Zu großer Rückstoß (Fluch);1;Waffe
+Ars Nouveau;Mana Regen;Schnellere Mana-Regeneration;7;Rüstung
+Ars Nouveau;Mana Boost;Mehr maximales Mana;7;Rüstung
+Ars Nouveau;Reactive;Reagiert auf Magie;8;Rüstung
+Ars Elemental;Mirror Shield;Reflektiert Zauber;5;Schild
+Ars Elemental;Soulbound;Item bleibt beim Tod;1;Alle
+Ender IO;Auto Smelt;Automatisches Schmelzen;1;Werkzeug
+Ender IO;Repellent;Stößt Gegner ab;11;Rüstung
+Ender IO;Shimmer;Sichtbar in Dunkelheit;1;Alle
+Ender IO;Soulbound;Item bleibt beim Tod;1;Alle
+Ender IO;Withering;Wither-Effekt;1;Waffe
+Ender IO;XP Boost;Mehr XP;7;Waffe
+Evil Craft;Unusing;Verhindert Abnutzung;1;Alle
+Evil Craft;Breaking;Waffe wird nicht zerstört;8;Alle
+Evil Craft;Life Stealing;Stiehlt Leben;6;Waffe
+Evil Craft;Poison Tip;Vergiftet Gegner;7;Waffe
+Evil Craft;Vengeance;Gibt Schaden zurück;8;Rüstung
+Spartan Weaponry;Propel;Wirft Gegner zurück;7;Waffe
+Spartan Weaponry;Razor's Edge;Erhöht Schärfe;9;Waffe
+Spartan Weaponry;Incendiary;Entzündet Ziele;1;Waffe
+Spartan Weaponry;Lucky Throw;Bessere Wurf-Chancen;8;Wurfwaffe
+Spartan Weaponry;Hydrodynamic;Besser im Wasser;1;Wurfwaffe
+Spartan Weaponry;Supercharge;Supergeladene Angriffe;5;Waffe
+Spartan Weaponry;Expanse;Erweiterte Reichweite;6;Waffe
+Spartan Weaponry;Sharpshooter;Bessere Genauigkeit;7;Fernkampf
+Spartan Weaponry;Collector's Ang;Sammelt mehr Drops;12;Waffe
+Draconic Evolution;Reaper;Mehr Mob-Drops;9;Waffe
+Farmers Delight;Backstabbing;Mehr Schaden von hinten;8;Waffe
+Twilight Forest;Fire React;Feuer-Reaktion;8;Rüstung
+Twilight Forest;Chill Aura;Verlangsamt Gegner;8;Rüstung
+Twilight Forest;Destruction;Mehr Zerstörung;8;Waffe
+Deep Aether;Gloves Reach;Erweiterte Reichweite;5;Handschuhe
+Deeper Darker;Catalysis;Sculk-Wachstum;5;Werkzeug
+Deeper Darker;Sculk Smite;Mehr Schaden gegen Sculk;10;Waffe
+Lightman's Currency;Money Mending;Repariert mit Geld;1;Alle
+Lightman's Currency;Coin Magnet;Zieht Münzen an;8;Rüstung
+Minecolonies;Raider Damage;Mehr Schaden gegen Räuber;6;Waffe
+Mystical Agriculture;Mystical Enlightenment;Magisches Verständnis;9;Waffe
+Mystical Agriculture;Soul Siphoner;Saugt Seelen;9;Waffe
+CoFH Core;Holding;Mehr Inventar-Kapazität;12;Container
+LR Tactical;Backstab;Bonus Schaden hinter Gegner;6;Waffe
+Create;Potato Recovery;Kartoffel-Drop bei Treffer;7;Waffe
+Create;Capacity;Erhöht Speicherkapazität;7;Container

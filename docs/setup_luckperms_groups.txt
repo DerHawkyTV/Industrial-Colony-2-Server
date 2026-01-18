@@ -1,0 +1,152 @@
+# ===================================
+# LuckPerms Gruppen-Setup Script
+# Industrial Colony 2 Server
+# Version: 1.2.0
+# Datum: 2026-01-02
+# ===================================
+#
+# ANLEITUNG:
+# 1. Kopiere die Befehle unten
+# 2. Füge sie einzeln in die Server-Konsole ein
+# 3. Oder nutze ein Plugin wie CommandBlocker/AutoCommand
+#
+# ===================================
+
+# --- GRUPPEN ERSTELLEN ---
+
+# 1. OWNER (Gewicht: 1000)
+lp creategroup owner
+lp group owner setweight 1000
+lp group owner meta setprefix "&5[&dOwner&5]&r "
+lp group owner permission set *
+lp group owner permission set luckperms.autoop true
+
+# 2. DEVELOPER (Gewicht: 900)
+lp creategroup developer
+lp group developer setweight 900
+lp group developer meta setprefix "&1[&9Developer&1]&r "
+lp group developer permission set *
+lp group developer permission set luckperms.autoop true
+
+# 3. ADMIN (Gewicht: 800)
+lp creategroup admin
+lp group admin setweight 800
+lp group admin meta setprefix "&c[&4Admin&c]&r "
+lp group admin permission set *
+lp group admin permission set luckperms.autoop true
+
+# 4. MODERATOR (Gewicht: 700)
+lp creategroup moderator
+lp group moderator setweight 700
+lp group moderator meta setprefix "&9[&bModerator&9]&r "
+lp group moderator permission set essentials.kick
+lp group moderator permission set essentials.ban
+lp group moderator permission set essentials.mute
+lp group moderator permission set essentials.warn
+lp group moderator permission set essentials.teleport
+lp group moderator permission set essentials.tp
+lp group moderator permission set essentials.vanish
+
+# 5. HELPER (Gewicht: 600)
+lp creategroup helper
+lp group helper setweight 600
+lp group helper meta setprefix "&2[&aHelper&2]&r "
+lp group helper permission set essentials.helpop
+lp group helper permission set essentials.msg
+lp group helper permission set essentials.tp
+lp group helper permission set essentials.tphere
+
+# 6. BUILDER (Gewicht: 500)
+lp creategroup builder
+lp group builder setweight 500
+lp group builder meta setprefix "&3[&bBaumeister&3]&r "
+lp group builder permission set worldedit.*
+lp group builder permission set essentials.fly
+lp group builder permission set essentials.speed
+
+# 7. YOUTUBER (Gewicht: 400)
+lp creategroup youtuber
+lp group youtuber setweight 400
+lp group youtuber meta setprefix "&c[&fYou&cTuber&f]&r "
+lp group youtuber permission set essentials.fly
+lp group youtuber permission set essentials.nick
+lp group youtuber permission set essentials.speed
+
+# 8. VIP (Gewicht: 300)
+lp creategroup vip
+lp group vip setweight 300
+lp group vip meta setprefix "&6[&eVIP&6]&r "
+lp group vip permission set essentials.back
+lp group vip permission set essentials.home
+lp group vip permission set essentials.sethome.multiple.5
+lp group vip permission set essentials.tpa
+lp group vip permission set essentials.tpahere
+
+# 9. DEFAULT (Gewicht: 100)
+lp creategroup default
+lp group default setweight 100
+lp group default meta setprefix "&7[&fSpieler&7]&r "
+lp group default permission set essentials.help
+lp group default permission set essentials.spawn
+lp group default permission set essentials.home
+lp group default permission set essentials.sethome
+lp group default permission set essentials.tpa
+lp group default permission set essentials.tpaccept
+lp group default permission set essentials.tpdeny
+
+# --- GRUPPEN-HIERARCHIE (Vererbung) ---
+
+lp group helper parent add default
+lp group builder parent add default
+lp group youtuber parent add default
+lp group vip parent add default
+lp group moderator parent add helper
+lp group admin parent add moderator
+lp group developer parent add admin
+lp group owner parent add developer
+
+# --- SPEZIELLE BERECHTIGUNGEN ---
+
+# TAB Plugin Zugriff
+lp group admin permission set tab.reload
+lp group admin permission set tab.announce.scoreboard
+lp group moderator permission set tab.nametag.preview
+
+# Lands Plugin (Claim-System)
+lp group default permission set lands.command.lands
+lp group default permission set lands.claim
+lp group vip permission set lands.claim.limit.10
+lp group moderator permission set lands.admin.unclaim
+lp group admin permission set lands.admin.*
+
+# Quests Plugin
+lp group default permission set quests.command.quests
+lp group default permission set quests.command.questsadmin.quest
+lp group moderator permission set quests.admin
+
+# MMOCore Permissions
+lp group default permission set mmocore.class.*
+lp group admin permission set mmocore.admin
+
+# Vault Bridge (Economy)
+lp group default permission set vault.use
+lp group default permission set eco.balance
+lp group default permission set eco.pay
+
+# Lightman's Currency
+lp group default permission set lightmanscurrency.command.lcadmin.creative
+
+# Create Mod Permissions (falls benötigt)
+lp group builder permission set create.*
+
+# --- OWNER SETZEN (Ändere Username/UUID) ---
+
+# Mit Username (anpassen!)
+lp user DerHawkyTV parent set owner
+
+# Oder mit UUID (anpassen!)
+# lp user febf0142-95a5-478c-82cf-7ebb2a17d62c parent set owner
+
+# --- FERTIG! ---
+# Gruppen sollten nun erstellt sein
+# Prüfe mit: /lp listgroups

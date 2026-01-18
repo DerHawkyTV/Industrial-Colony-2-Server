@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(du:*)",
+      "Bash(grep:*)",
+      "Bash(cat:*)",
+      "Bash(java:*)",
+      "Bash(powershell -Command \"Compress-Archive -Path ''config'' -DestinationPath ''backups\\\\v1.2.0_2026-01-04\\\\config.zip'' -Force\")",
+      "Bash(powershell -Command \"Compress-Archive -Path ''kubejs'' -DestinationPath ''backups\\\\v1.2.0_2026-01-04\\\\kubejs.zip'' -Force\")",
+      "Bash(powershell -Command \"Compress-Archive -Path ''plugins'' -DestinationPath ''backups\\\\v1.2.0_2026-01-04\\\\plugins.zip'' -Force\")",
+      "Bash(robocopy:*)",
+      "Bash(exit 0)",
+      "Bash(tree:*)",
+      "Bash(powershell -Command \"Compress-Archive -Path ''world'' -DestinationPath ''backups\\\\v1.2.0_2026-01-04\\\\world.zip'' -CompressionLevel Optimal -Force\")",
+      "Bash(powershell -Command \"Compress-Archive -Path ''plugins\\\\*.jar'' -DestinationPath ''backups\\\\v1.2.0_2026-01-04\\\\plugins.zip'' -CompressionLevel Optimal -Force\")",
+      "Bash(powershell -Command:*)",
+      "Bash(dir:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(unzip:*)",
+      "Bash(comm:*)",
+      "Bash(iconv:*)",
+      "Bash(findstr:*)",
+      "Bash(chmod:*)",
+      "Read(//d/Users/DominikMayer/Documents/GitHub/ATM10/mods/**)",
+      "Read(//c/Users/DominikMayer/curseforge/minecraft/Instances/Industrial Colony 2 2.3/mods/**)",
+      "Bash(copy \"C:\\\\Users\\\\DominikMayer\\\\curseforge\\\\minecraft\\\\Instances\\\\Industrial Colony 2 2.3\\\\mods\\\\[forge]ctov-3.4.14.jar\" \"D:\\\\Users\\\\DominikMayer\\\\Documents\\\\GitHub\\\\Industrial-Colony-2-Server\\\\mods\"\")",
+      "Bash(if [ -f \"C:\\\\Users\\\\DominikMayer\\\\curseforge\\\\minecraft\\\\Instances\\\\Industrial Colony 2 2.3\\\\logs\\\\debug.log\" ])",
+      "Bash(then tail -300 \"C:\\\\Users\\\\DominikMayer\\\\curseforge\\\\minecraft\\\\Instances\\\\Industrial Colony 2 2.3\\\\logs\\\\debug.log\")",
+      "Bash(else echo \"debug.log not found\")",
+      "Bash(fi)",
+      "Read(//c/Users/DominikMayer/curseforge/minecraft/Instances/Industrial Colony 2 2.3/crash-reports/**)",
+      "Bash(jar tf:*)",
+      "Bash(xcopy:*)",
+      "Bash(Copy-Item -Path \"D:\\\\Users\\\\DominikMayer\\\\Documents\\\\GitHub\\\\AllTheMods10\\\\config\\\\ftbquests\\\\*\" -Destination \"D:\\\\Users\\\\DominikMayer\\\\Documents\\\\GitHub\\\\Industrial-Colony-2-Server\\\\config\\\\ftbquests\"\" -Recurse -Force)",
+      "Bash(ren \"D:\\\\Users\\\\DominikMayer\\\\Documents\\\\GitHub\\\\Industrial-Colony-2-Server\\\\config\\\\ftbquests\\\\quests\\\\chapters\\\\xycraft.snbt\" \"xycraft.snbt.disabled\")",
+      "Bash(cmd /c:*)"
+    ]
+  }
+}

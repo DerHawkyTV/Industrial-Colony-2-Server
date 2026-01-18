@@ -1,0 +1,88 @@
+Mod;Affix Name;Typ;Beschreibung;Anwendbar auf;Seltenheit;Bonus
+Apotheosis;Aquatic;Attribut;Erhöht Schwimmgeschwindigkeit;Stiefel;Common;+0.15
+Apotheosis;Blessed;Attribut;Erhöht maximale Gesundheit;Rüstung;Common;+2 HP
+Apotheosis;Elastic;Attribut;Erhöht Schrithöhe (1 Block hochgehen);Stiefel;Common;+1
+Apotheosis;Fortunate;Attribut;Erhöht Glück;Rüstung;Common;+1
+Apotheosis;Gravitational;Attribut;Reduziert Fallschaden;Brustplatte;Common;-15%
+Apotheosis;Ironforged;Attribut;Erhöht Rüstung;Rüstung;Common;+2
+Apotheosis;Spiritual;Attribut;Erhöht erhaltene Heilung;Brust/Beine;Common;+10%
+Apotheosis;Stalwart;Attribut;Erhöht Knockback-Resistenz;Rüstung;Common;+0.1
+Apotheosis;Steel_Touched;Attribut;Erhöht Rüstung Härte;Rüstung;Common;+1
+Apotheosis;Windswept;Attribut;Erhöht Bewegungsgeschwindigkeit;Beine/Stiefel;Common;+0.05
+Apotheosis;Winged;Attribut;Verbessert Elytra-Flug;Brustplatte;Common;+0.1
+Apotheosis;Blast_Forged;Schadensreduktion;Reduziert Explosionsschaden;Rüstung;Common;-10%
+Apotheosis;Blockading;Schadensreduktion;Reduziert physischen Schaden;Rüstung;Common;-5%
+Apotheosis;Dwarven;Schadensreduktion;Reduziert Feuerschaden;Rüstung;Common;-10%
+Apotheosis;Feathery;Schadensreduktion;Reduziert Fallschaden;Stiefel;Common;-15%
+Apotheosis;Runed;Schadensreduktion;Reduziert magischen Schaden;Rüstung;Common;-10%
+Apotheosis;Blinding;Effekt;Verursacht Blindheit beim Angreifer;Rüstung;Common;3 Sek
+Apotheosis;Bolstering;Effekt;Gewährt Resistenz beim Angreifen;Rüstung;Common;5 Sek
+Apotheosis;Bursting;Effekt;Gewährt Vitalität beim Angreifen;Rüstung;Common;5 Sek
+Apotheosis;Nimble;Effekt;Gewährt Schnelligkeit beim Angreifen;Rüstung;Common;5 Sek
+Apotheosis;Revitalizing;Effekt;Gewährt sofortige Heilung beim Angreifen;Rüstung;Common;1 HP
+Apotheosis;Elongated;Attribut;Erhöht Angriffsreichweite;Schwert/Dreizack;Common;+0.5
+Apotheosis;Glacial;Attribut;Verursacht Kälteschaden;Schwert/Dreizack;Common;+2
+Apotheosis;Graceful;Attribut;Erhöht Angriffsgeschwindigkeit;Schwert/Dreizack;Common;+0.1
+Apotheosis;Infernal;Attribut;Verursacht Feuerschaden;Schwert/Dreizack;Common;+2
+Apotheosis;Intricate;Attribut;Erhöht kritischen Schaden;Schwert/Dreizack;Common;+10%
+Apotheosis;Lacerating;Attribut;Erhöht kritischen Schaden;Schwert/Dreizack;Common;+10%
+Apotheosis;Piercing;Attribut;Panzerung durchbohren;Schwert/Dreizack;Common;+2
+Apotheosis;Spellbreaking;Attribut;Magischen Schutz durchbrechen;Schwert/Dreizack;Common;+2
+Apotheosis;Vampiric;Attribut;Lebensraub bei Treffern;Schwert/Dreizack;Common;+0.15
+Apotheosis;Violent;Attribut;Erhöht Angriffschaden;Schwert/Dreizack;Common;+2
+Apotheosis;Elusive;Effekt;Gewährt Schnelligkeit beim Angreifen;Schwert/Dreizack;Common;3 Sek
+Apotheosis;Sophisticated;Effekt;Gewährt Wissenserfahrung beim Angreifen;Schwert/Dreizack;Common;+XP
+Apotheosis;Weakening;Effekt;Verursacht Schwäche beim Angreifen;Schwert/Dreizack;Common;5 Sek
+Apotheosis;Festive;Spezial;Kills droppen Geschenke;Schwert/Dreizack;Common;5% Chance
+Apotheosis;Thunderstruck;Spezial;Treffer erzeugen gelegentlich Blitzschläge;Schwert/Dreizack;Common;10% Chance
+Apotheosis;Annihilating;Attribut;Erhöht kritische Chance;Schwere Waffen;Common;+20%
+Apotheosis;Berserking;Attribut;Überheilung (Lifesteal über Max HP);Schwere Waffen;Common;+0.1
+Apotheosis;Decimating;Attribut;Erhöht kritischen Schaden;Schwere Waffen;Common;+20%
+Apotheosis;Forceful;Attribut;Erhöht Knockback;Schwere Waffen;Common;+0.75
+Apotheosis;Giant_Slaying;Attribut;Schaden basierend auf Gegnerleben;Schwere Waffen;Common;+5%
+Apotheosis;Murderous;Attribut;Erhöht Angriffschaden;Schwere Waffen;Common;+3
+Apotheosis;Nullifying;Attribut;Ignoriert Panzerung;Schwere Waffen;Common;+2
+Apotheosis;Shredding;Attribut;Zerstört gegnerische Panzerung;Schwere Waffen;Common;+15%
+Apotheosis;Bloodletting;Effekt;Verursacht Blutung;Schwere Waffen;Common;5 Sek
+Apotheosis;Caustic;Effekt;Verursacht Zersetzung;Schwere Waffen;Common;5 Sek
+Apotheosis;Cleaving;Spezial;Treffer schlagen alle in Reichweite;Schwere Waffen;Common;AoE
+Apotheosis;Executing;Spezial;Bonus Schaden gegen schwache Gegner;Schwere Waffen;Common;+50% unter 20% HP
+Apotheosis;Agile;Attribut;Schnelleres Laden;Bogen/Armbrust;Common;+20%
+Apotheosis;Elven;Attribut;Erhöht Pfeilschaden;Bogen/Armbrust;Common;+15%
+Apotheosis;Streamlined;Attribut;Erhöht Pfeilgeschwindigkeit;Bogen/Armbrust;Common;+15%
+Apotheosis;Windswept (Ranged);Attribut;Erhöht Bewegungsgeschwindigkeit;Bogen/Armbrust;Common;+0.15
+Apotheosis;Acidic;Effekt;Verursacht Zersetzung;Bogen/Armbrust;Common;5 Sek
+Apotheosis;Ensnaring;Effekt;Verursacht Verlangsamung;Bogen/Armbrust;Common;5 Sek
+Apotheosis;Fleeting;Effekt;Gewährt Schnelligkeit;Bogen/Armbrust;Common;5 Sek
+Apotheosis;Grievous;Effekt;Verursacht Grievous Effekt;Bogen/Armbrust;Common;5 Sek
+Apotheosis;Ivy_Laced;Effekt;Verursacht Gift;Bogen/Armbrust;Common;5 Sek
+Apotheosis;Satanic;Effekt;Verursacht Wither;Bogen/Armbrust;Common;5 Sek
+Apotheosis;Shulkers;Effekt;Verursacht Levitation;Bogen/Armbrust;Common;3 Sek
+Apotheosis;Magical;Spezial;Pfeile gehen durch Gegner;Bogen/Armbrust;Epic;Piercing
+Apotheosis;Spectral;Spezial;Pfeile durchdringen Blöcke;Bogen/Armbrust;Common;Ghost
+Apotheosis;Ironforged (Shield);Attribut;Erhöht Rüstung;Schild;Common;+0.1
+Apotheosis;Stalwart (Shield);Attribut;Erhöht Knockback-Resistenz;Schild;Common;+0.1
+Apotheosis;Steel_Touched (Shield);Attribut;Erhöht Rüstung Härte;Schild;Common;+1
+Apotheosis;Devilish;Effekt;Verursacht Blutung beim Angreifer;Schild;Common;3 Sek
+Apotheosis;Venomous;Effekt;Verursacht Gift beim Angreifer;Schild;Common;5 Sek
+Apotheosis;Withering;Effekt;Verursacht Wither beim Angreifer;Schild;Common;3 Sek
+Apotheosis;Catalyzing;Spezial;Schildbash reduziert Cooldowns nahebei;Schild;Common;-20%
+Apotheosis;Psychic;Spezial;Blockieren erhöht Magieschutz;Schild;Common;+2
+Apotheosis;Retreating;Spezial;Schaden wirft dich zurück (Flucht);Schild;Epic;Knockback
+Apotheosis;Destructive;Attribut;Erhöht Abbaugeschwindigkeit;Spitzhacke/Schaufel;Common;+15%
+Apotheosis;Experienced;Attribut;Erhöht gewonnene Erfahrung;Spitzhacke/Schaufel;Common;+25%
+Apotheosis;Lengthy;Attribut;Erhöht Block-Reichweite;Spitzhacke/Schaufel;Common;+0.5
+Apotheosis;Lucky;Attribut;Erhöht Glück beim Abbau;Spitzhacke/Schaufel;Common;+1
+Apotheosis;Spelunkers;Effekt;Schnelligkeit beim Abbau;Spitzhacke/Schaufel;Common;5 Sek
+Apotheosis;Swift;Effekt;Eile beim Abbau;Spitzhacke/Schaufel;Common;Haste II
+Apotheosis;Enlightened;Spezial;Bonus XP beim Block-Abbau;Spitzhacke/Schaufel;Common;+50% XP
+Apotheosis;Omnetic;Spezial;Werkzeug passt sich an Block-Typ an;Spitzhacke/Schaufel;Common;Universal
+Apotheosis;Radial;Spezial;Bricht Blöcke im Radius;Spitzhacke/Schaufel;Common;3x3
+Apotheosis;Durable;Global;Reduziert Haltbarkeitsverlust;Alle Items;Common;-20%
+Apotheosis;Telepathic;Spezial;Teleportiert zu getroffenen Gegnern;Waffen;Epic;Blink
+Apothic Additions;Searing;Attribut;Erhöht Feuerschaden;Waffen;Common;+3
+Apothic Additions;Frozen;Attribut;Erhöht Kälteschaden;Waffen;Common;+3
+Apothic Additions;Toxic;Effekt;Verstärktes Gift;Waffen;Common;8 Sek
+Apothic Additions;Crushing;Attribut;Erhöht Rüstungsdurchdringung;Schwere Waffen;Common;+25%
+Apothic Additions;Lifeless;Effekt;Verhindert Regeneration;Waffen;Common;10 Sek
+Apothic Additions;Relentless;Spezial;Combo-System - mehr Schaden bei Treffern;Waffen;Rare;Stacking

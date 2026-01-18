@@ -1,0 +1,40 @@
+#The base cost to warp using a Waystone
+#See the wiki for Money Value format: https://github.com/Lightman314/LightmansCurrency/wiki/Money-Value-Arguments
+#Default: "null;empty"
+baseWarpCost="null;empty"
+
+#The distance scaled cost to warp using a Waystone
+#See the wiki for Money Value format: https://github.com/Lightman314/LightmansCurrency/wiki/Money-Value-Arguments
+#Default: "null;empty"
+distanceScaledCost="null;empty"
+
+#The distance per distance scaled cost in meters
+#Range: 0.0 -> 1.7976931348623157E308
+#Default: 100.0
+distancePerScaledCost=100.0
+
+#The cost to warp from one dimension to another using a Waystone
+#See the wiki for Money Value format: https://github.com/Lightman314/LightmansCurrency/wiki/Money-Value-Arguments
+#Default: "null;empty"
+crossDimensionWarpCost="null;empty"
+
+#The warp cost scale when warping using a Warp Plate
+#Range: 0.0 -> 1.7976931348623157E308
+#Default: 0.0
+warpPlateCostScale=0.0
+
+#The warp cost scale when warping to a Global Waystone
+#Range: 0.0 -> 1.7976931348623157E308
+#Default: 0.0
+globalWaystoneCostScale=0.0
+
+#The minimum warp cost regardless of distance, etc.
+#See the wiki for Money Value format: https://github.com/Lightman314/LightmansCurrency/wiki/Money-Value-Arguments
+#Default: "null;empty"
+minWarpCost="null;empty"
+
+#The maximum warp cost regardless of distance, etc.
+#See the wiki for Money Value format: https://github.com/Lightman314/LightmansCurrency/wiki/Money-Value-Arguments
+#Default: "null;empty"
+maxWarpCost="null;empty"
+

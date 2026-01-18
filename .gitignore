@@ -1,0 +1,120 @@
+# =============================================================================
+# Industrial Colony 2 Server - .gitignore
+# Version: 2.3.0
+# Aktualisiert: 2026-01-16
+# =============================================================================
+
+# --- System & IDE Dateien ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Logs ---
+*.log
+logs/
+crash-reports/
+debug/
+hs_err_pid*.log
+
+# --- Mohist & Server Binaries ---
+mohist-*.jar
+server.jar
+bundler-*.jar
+forge-*.jar
+minecraft_server*.jar
+
+# --- Bibliotheken und Assets (Runtime) ---
+libraries/
+versions/
+assets/
+cache/
+.cache/
+
+# --- Server Runtime-Dateien ---
+usercache.json
+usernamecache.json
+banned-ips.json
+banned-players.json
+.mixin.out/
+whitelist.json
+whitelist.json.backup
+ops.json
+ops.json.backup
+server.properties
+
+# --- Welt-Daten ---
+world/
+world_nether/
+world_the_end/
+backups/
+DIM*/
+
+# --- Plugins (zu groß für Git) ---
+plugins/
+
+# --- Große Runtime-Ordner ---
+tacz/
+tacz_backup/
+modernfix/
+patchouli_books/
+schematics/uploaded/
+local/
+saves/
+resourcepacks/
+shaderpacks/
+
+# --- Dynmap / Web-Karten ---
+dynmap/
+web/
+bluemap/
+
+# --- Website (separat gehostet) ---
+website/
+
+# --- Große Mods (>99MB, manueller Download erforderlich) ---
+# Diese Mods überschreiten das GitHub-Dateilimit und müssen separat heruntergeladen werden
+# Siehe README.md für Download-Links
+mods/L_Enders_Cataclysm-*.jar
+
+# --- Temporäre Dateien ---
+*.tmp
+*.temp
+*.bak
+*.old
+
+# --- Dokumentations-Archive & Interne Docs ---
+docs/archive/
+docs/v2.3.0-migration/
+docs/ATM10_*.md
+docs/MODPACK_COMPARISON_ATM10.md
+docs/v2.3.1-roadmap.md
+
+# =============================================================================
+# BEHALTEN (nicht ignorieren)
+# =============================================================================
+# Mods werden im Repository behalten
+!mods/*.jar
+!mods/.gitkeep
+
+# Configs werden behalten
+!config/
+!kubejs/
+!defaultconfigs/
+
+# Dokumentation wird behalten (nur User-relevante Docs)
+!docs/README.md
+!docs/GUIDES.md
+!docs/CONFIG.md
+!docs/BUGFIXES.md
+!docs/MODLIST.md
+!docs/*.csv
+
+# Startscripte werden behalten
+!start.sh
+!start-direct.sh
+!*.bat

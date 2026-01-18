@@ -1,0 +1,122 @@
+// Alternative Polonium-Herstellung aus Fossil Fuel
+// Ermöglicht die direkte Herstellung von Polonium aus fossilen Brennstoffen
+ServerEvents.recipes(event => {
+
+    // Polonium Pellet aus Fossil Fuel (Industrial Foregoing)
+    // Benötigt Mekanism Pressurized Reaction Chamber
+    event.custom({
+        "type": "mekanism:reaction",
+        "itemInput": {
+            "ingredient": {
+                "tag": "forge:dusts/coal"
+            }
+        },
+        "fluidInput": {
+            "amount": 500,
+            "tag": "forge:biofuel"  // Industrial Foregoing's Biofuel als "Fossil Fuel"
+        },
+        "gasInput": {
+            "amount": 1000,
+            "gas": "mekanism:sulfuric_acid"
+        },
+        "duration": 400,
+        "energyRequired": 50000,
+        "itemOutput": {
+            "item": "mekanism:pellet_polonium"
+        },
+        "gasOutput": {
+            "gas": "mekanism:nuclear_waste",
+            "amount": 50
+        }
+    }).id('kubejs:polonium_from_biofuel');
+
+    // Alternative: Polonium direkt aus Create's Crude Oil
+    event.custom({
+        "type": "mekanism:reaction",
+        "itemInput": {
+            "ingredient": {
+                "item": "minecraft:netherite_scrap"
+            }
+        },
+        "fluidInput": {
+            "amount": 1000,
+            "fluid": "ad_astra:oil"  // Crude Oil
+        },
+        "gasInput": {
+            "amount": 2000,
+            "gas": "mekanism:oxygen"
+        },
+        "duration": 600,
+        "energyRequired": 100000,
+        "itemOutput": {
+            "item": "mekanism:pellet_polonium",
+            "count": 2
+        },
+        "gasOutput": {
+            "gas": "mekanism:nuclear_waste",
+            "amount": 100
+        }
+    }).id('kubejs:polonium_from_crude_oil');
+
+    // Noch eine Alternative mit Create's Liquified Coal (wenn vorhanden)
+    // Einfacher Prozess: Liquified Coal -> Polonium via Chemical Oxidizer + Isotopic Centrifuge
+    event.custom({
+        "type": "mekanism:oxidizing",
+        "input": {
+            "ingredient": {
+                "tag": "forge:storage_blocks/coal"
+            }
+        },
+        "output": {
+            "gas": "mekanism:carbon_dioxide",
+            "amount": 1000
+        }
+    }).id('kubejs:coal_to_co2');
+
+    // Polonium aus compressed Carbon + Nuclear Waste (Isotopic Centrifuge)
+    event.custom({
+        "type": "mekanism:centrifuging",
+        "input": {
+            "amount": 1000,
+            "gas": "mekanism:nuclear_waste"
+        },
+        "output": {
+            "gas": "mekanism:polonium",
+            "amount": 10
+        }
+    }).id('kubejs:nuclear_waste_to_polonium');
+
+    // Direkter Weg: Fossil Fuel (Biofuel) -> Polonium Gas via Rotary Condensentrator + Chemical Processing
+    event.custom({
+        "type": "mekanism:enriching",
+        "input": {
+            "ingredient": {
+                "item": "industrialforegoing:dryrubber"  // Ein fossiles Material aus Industrial Foregoing
+            }
+        },
+        "output": {
+            "item": "mekanism:enriched_carbon",
+            "count": 4
+        }
+    }).id('kubejs:dryrubber_to_enriched_carbon');
+
+    // Enriched Carbon -> Polonium (über Solar Neutron Activator + Isotopic Centrifuge Kette)
+    event.custom({
+        "type": "mekanism:nucleosynthesizing",
+        "itemInput": {
+            "ingredient": {
+                "item": "mekanism:enriched_carbon"
+            }
+        },
+        "gasInput": {
+            "amount": 1000,
+            "gas": "mekanism:antimatter"
+        },
+        "output": {
+            "item": "mekanism:pellet_polonium"
+        },
+        "duration": 1200,
+        "gasToUse": 10
+    }).id('kubejs:enriched_carbon_to_polonium');
+
+});
