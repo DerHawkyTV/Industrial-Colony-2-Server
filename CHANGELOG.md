@@ -10,7 +10,7 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 ## [Unreleased]
 
 ### Geplant für v2.3.1
-- [ ] FTB Quests Integration (ATM10 Quest-System adaptiert)
+- [ ] FTB Quests Integration 
 - [ ] Erweiterte Quest-Lines für alle Haupt-Mods
 - [ ] Custom Quest-Rewards mit Apotheosis Items
 
@@ -26,8 +26,6 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
 
 #### Massive Mod-Erweiterung (126 neue Mods)
 - **Mod-Count:** 190 → **316** (+126 Mods)
-- Basierend auf **All The Mods 10** (ATM10) Modpack
-- Lizenz für Scripts und Quests vom ATM-Team erhalten
 
 #### Magie-Systeme (Neu)
 - **Ars Nouveau** - Vollständiges Spell-Crafting System
@@ -100,8 +98,7 @@ Die folgenden Mods wurden entfernt (nicht kompatibel oder ersetzt):
 ### 🎯 Nächste Schritte (v2.3.1)
 
 1. **FTB Quests** installieren und konfigurieren
-2. **ATM10 Quests** an IC2 Mod-Liste anpassen
-3. **Custom Quest-Lines** für Magie-Mods erstellen
+2. **Custom Quest-Lines** für Magie-Mods erstellen
 
 ---
 
@@ -135,20 +132,6 @@ Die folgenden Mods wurden entfernt (nicht kompatibel oder ersetzt):
     - Fast: 16 → **64 items/cycle** (4x)
   - Konfiguration: `world/datapacks/custom_conduits/`
   - Dokumentation: [docs/ENDERIO_CONDUIT_CONFIG.md](docs/ENDERIO_CONDUIT_CONFIG.md)
-
-#### Dokumentation (8 neue Dateien)
-- **docs/README.md** - Vollständig überarbeitete Dokumentations-Übersicht
-  - 21 Dokumente strukturiert nach Kategorien
-  - Schnellnavigation & Problem-Lösungen
-  - Admin-Checkliste
-- **docs/CLIENT_CRASH_FIX.md** - Creative Inventory Crash Lösung
-- **docs/KUBEJS_FIXES.md** - KubeJS Script-Fehlerbehebungen
-- **docs/MOD_SYNC_REPORT.md** - Aktueller Mod-Abgleich Client/Server
-- **docs/MISSING_MODS_ANALYSIS.md** - Fehlende Mods-Analyse
-- **docs/BOTANYPOTS_ADDED.md** - BotanyPots Installation & Features
-- **docs/ENDERIO_CONDUIT_CONFIG.md** - Conduit-Konfiguration
-- **docs/INDUSTRIAL_FOREGOING_RANGE_FIX.md** - Range-Anpassungen
-
 ### 🔧 Geändert
 
 #### Mod-Verwaltung
